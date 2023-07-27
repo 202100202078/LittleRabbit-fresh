@@ -17,9 +17,9 @@
     height: 52px;
 }
 
-.shortcut .wrapper ul li {
+/* .shortcut .wrapper ul li {
     
-}
+} */
 
 .shortcut .wrapper ul li a {
     padding: 0 15px;
@@ -40,4 +40,49 @@
     margin-right: 4px;
     color: #fff;
     vertical-align: middle;
+}
+
+.header {
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    height: 88px;
+    /* background-color: pink; */
+}
+
+.logo {
+    margin-right: 40px;
+    width: 200px;
+    height: 88px;
+    /* background-color: blueviolet; */
+}
+
+.logo a {
+    display: block;
+    background-image: url(../images/logo.png);
+    width: 200px;
+    height: 88px;
+    font-size: 0;
+}
+
+.header .nav {
+    margin-top: 33px;
+    margin-right: 28px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul li {
+    margin-right: 47px;
+}
+
+.header .nav ul li a {
+    padding-bottom: 10px;
+}
+
+.header .nav li a:hover {
+    color: #5EB69C;
+    border-bottom: 2px solid #5EB69C;
 }
