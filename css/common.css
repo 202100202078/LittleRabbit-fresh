@@ -1,0 +1,43 @@
+/* 页面头尾的相同样式 */
+.wrapper {
+    margin: 0 auto;
+    width: 1240px;
+    /* background-color: pink; */
+}
+
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 52px;
+}
+
+.shortcut .wrapper ul li {
+    
+}
+
+.shortcut .wrapper ul li a {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #fff;
+    border-right: 1px solid #999;
+}
+
+.shortcut .wrapper ul li .login{
+    color: #5EB69C;
+}
+
+.shortcut .wrapper ul li:last-child a{
+    border-right: none;
+}
+
+.shortcut li .iconfont {
+    margin-right: 4px;
+    color: #fff;
+    vertical-align: middle;
+}
