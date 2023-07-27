@@ -86,3 +86,29 @@
     color: #5EB69C;
     border-bottom: 2px solid #5EB69C;
 }
+
+.header .sear {
+    display: flex;
+    margin-top: 33px;
+    margin-right: 45px;
+    width: 170px;
+    height: 36px;
+    border-bottom: 2px solid #F4F4F4;
+}
+
+.header .sear input {
+    /* 重置input框的默认宽度 */
+    width: 0;
+    flex: 1;
+}
+
+.header .sear .iconfont {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.header .sear input::placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
