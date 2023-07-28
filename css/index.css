@@ -95,3 +95,90 @@
     background-color: #fff;
 }
 
+.goods {
+    margin-top: 40px;
+    height: 476px;
+    /* background-color: palegoldenrod; */
+}
+
+.hd {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+
+.hd .left {
+    display: flex;
+}
+
+.hd .left h2 {
+    margin-right: 35px;
+    font-size: 30px;
+}
+
+.hd .left p {
+    align-self: self-end;
+    color: #A1A1A1;
+}
+
+.hd .right {
+    line-height: 42px;
+    color: #A1A1A1;
+}
+
+.hd .right .more {
+    color: #A1A1A1;
+}
+
+.hd .right .iconfont {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.products ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products ul li {
+    width: 304px;
+    height: 404px;
+    background-color: #EEF9F4 ;
+}
+
+.products ul li .pic {
+    width: 304px;
+    height: 304px;
+}
+
+.products ul li .text {
+    padding: 18px 0px 16px;
+    text-align: center;
+}
+
+.products ul li .text h4 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.goods .products ul li .text p{
+    font-size: 18px;
+    color: #AA2113;
+}
+
+.goods .products ul li .text span {
+    margin-left: 3px;
+    font-size: 22px;
+}
+
+.recommand .products ul li {
+    background-color: #fff;
+}
+
+.recommand .products ul li .text p {
+    color: #A1A1A1 ;
+    font-size: 16px;
+}
