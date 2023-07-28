@@ -140,6 +140,7 @@
 
 .products ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -185,6 +186,7 @@
 
 .hotbrand {
     margin-top: 60px;
+    margin-bottom: 20px;
     padding: 40px 0;
     height: 468px;
     background-color: #F5F5F5;
@@ -230,3 +232,177 @@
     width: 244px;
     height: 306px;
 }
+
+.fresh {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    /* background-color: pink; */
+}
+
+.fresh .hd {
+    margin-bottom: 20px;
+}
+
+.hd .right {
+    display: flex;
+}
+
+.hd .right ul {
+    display: flex;
+    margin-right: 58px;
+}
+
+
+.hd .right ul li a {
+    margin-left: 6px;
+    padding: 0 7px;
+}
+
+.hd .right ul li .active {
+    background-color: #00BE9A;
+    color: #fff;
+}
+
+.bd {
+    display: flex;
+    justify-content: space-between;
+    height: 610px;
+    /* background-color: pink; */
+}
+
+.bd .left {
+    width: 248px;
+    height: 610px;
+}
+
+.bd .right {
+    width: 968px;
+    height: 610px;
+    /* background-color: pink; */
+}
+
+.bd .right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bd .right ul li {
+    position: relative;
+    padding: 10px 21px 0;
+    width: 242px;
+    height: 305px;
+    overflow: hidden;
+    /* background-color: pink; */
+    /* border: 2px solid #000000; */
+}
+
+.bd .right ul li .pic {
+    width: 200px;
+    height: 180px;
+}
+
+.bd .right ul li .text .info {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 60px;
+    line-height: 19px;
+}
+
+.bd .right ul li .text .price {
+    color: #AF2F22;
+}
+
+.bd .right ul li .text .price span {
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.bd .right ul li .pop_up {
+    padding: 16px 0 14px;
+    position: absolute;
+    left: 0;
+    bottom: -86px;
+    width: 240px;
+    height: 83px;
+    background-color: #00BE9A;
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.bd .right ul li .pop_up p:first-child {
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+.bd .right ul li .pop_up div {
+    margin: 0 auto;
+    margin-bottom: 6px;
+    width: 120px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.bd .right ul li .pop_up p:nth-child(2) {
+    font-size: 13px;
+}
+
+.bd .right ul li:hover {
+    border: 2px solid #00BE9A;
+}
+
+.bd .right ul li:hover .pop_up {
+    bottom: 0px;
+}
+
+.clothes {
+    margin-bottom: 40px;
+    height: 672px;
+    /* background-color: pink; */
+}
+
+.clothes .hd {
+    margin-bottom: 20px;
+}
+
+.kitchen {
+    margin-bottom: 40px;
+    height: 672px;
+}
+
+.clothes .hd {
+    margin-bottom: 20px;
+}
+
+.house {
+    margin-bottom: 100px;
+    height: 672px;
+}
+
+.house .hd {
+    margin-bottom: 20px;
+}
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
