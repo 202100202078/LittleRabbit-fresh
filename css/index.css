@@ -383,14 +383,71 @@
     margin-bottom: 20px;
 }
  
+.new {
+    margin-bottom: 40px;
+    height: 427px;
+    /* background-color: pink; */
+}
 
+.new .hd {
+    margin-bottom: 30px;
+}
 
+.new .content {
+    height: 355px;
+}
 
+.new .content ul {
+    display: flex;
+    justify-content: space-between;
+}
 
- 
+.new .content ul li {
+    width: 405px;
+    height: 355px;
+    background-color: pink;
+}
 
+.new .content ul li a .pic {
+    position: relative;
+    width: 405px;
+    height: 288px;
+}
 
+.new .content ul li a .text {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    line-height: 67px;
+} 
 
+.new .content ul li a .text .prve .icon-favorites-fill {
+    color: brown;
+    font-size: 14px;
+}
+
+.new .content ul li a .text {
+    color: #666;
+}
+
+.new .content ul li a .text .prve {
+    display: flex;
+}
+
+.new .content ul li a .text p {
+    margin-right: 20px;
+}
+
+.new .content ul li a .pic .cover{
+    padding: 20 15 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 405px;
+    height: 90px;
+    background-color: green;
+}
 
 
 
