@@ -1,7 +1,7 @@
 /* 去除常见标签默认的 margin 和 padding */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
