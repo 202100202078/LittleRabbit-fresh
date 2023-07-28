@@ -182,3 +182,51 @@
     color: #A1A1A1 ;
     font-size: 16px;
 }
+
+.hotbrand {
+    margin-top: 60px;
+    padding: 40px 0;
+    height: 468px;
+    background-color: #F5F5F5;
+}
+
+/* .hotbrand .wrapper {
+     background-color: pink; 
+} */
+
+.hotbrand .wrapper .hd {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hotbrand .wrapper .mid {
+    margin: 5px 0 15px 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+}
+
+.hotbrand .wrapper .mid a {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(9, 9, 9, 0.3);
+    text-align: center;
+    line-height: 20px;
+}
+
+.hotbrand .wrapper .mid a:hover {
+    background-color: #00BE9A;
+}
+
+.hotbrand .wrapper .mid a:last-child {
+    margin-left: 12px;
+}
+
+.hotbrand .wrapper .mid .iconfont {
+    color: #fff;
+}
+
+.hotbrand .wrapper .products ul li {
+    width: 244px;
+    height: 306px;
+}
