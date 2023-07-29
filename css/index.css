@@ -405,7 +405,7 @@
 .new .content ul li {
     width: 405px;
     height: 355px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .new .content ul li a .pic {
@@ -414,7 +414,7 @@
     height: 288px;
 }
 
-.new .content ul li a .text {
+.new .content ul li a>.text {
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
@@ -422,35 +422,59 @@
     line-height: 67px;
 } 
 
-.new .content ul li a .text .prve .icon-favorites-fill {
+.new .content ul li a>.text .prve .icon-favorites-fill {
     color: brown;
     font-size: 14px;
 }
 
-.new .content ul li a .text {
+.new .content ul li a>.text {
     color: #666;
 }
 
-.new .content ul li a .text .prve {
+.new .content ul li a>.text .prve {
     display: flex;
 }
 
-.new .content ul li a .text p {
+.new .content ul li a>.text p {
     margin-right: 20px;
 }
 
 .new .content ul li a .pic .cover{
-    padding: 20 15 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 0;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 405px;
     height: 90px;
-    background-color: green;
+    background-image: linear-gradient(180deg, rgba(137,137,137,0.00) 0%, rgba(0,0,0,0.90) 100%);
+    /* background-color: green; */
 }
 
+.new .content ul li a .pic .cover .text {
+    color: #fff;
+}
 
+.new .content ul li a .pic .cover .text h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
 
+.new .content ul li a .pic .cover .price {
+    padding: 0 7px;
+    margin-top: 15px;
+    height: 25px;
+    background-color: #fff;
+    color: #AA2113 ;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.new .content ul li a .pic .cover .price span {
+    font-size: 18px;
+}
 
 
 
